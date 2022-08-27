@@ -7,7 +7,7 @@ repos:
         args:
           - --max-line-length=90
           - --ignore-imports=yes
-          - -d duplicate-code
+            #- -d duplicate-code
         language: python
         types:
           - python 
