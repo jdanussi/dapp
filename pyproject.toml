@@ -1,0 +1,22 @@
+[tool.poetry]
+name = "dapp"
+version = "0.1.0"
+description = ""
+authors = ["Jorge Danussi <jdanussi@gmail.com>"]
+packages = [{include = "dapp"}]
+
+[tool.poetry.dependencies]
+python = "^3.8"
+pandas = "^1.4.3"
+pymssql = "^2.2.5"
+PyMySQL = "^1.0.2"
+SQLAlchemy = "^1.4.40"
+
+[tool.poetry.dev-dependencies]
+pylint = "^2.14.5"
+black = "^22.6.0"
+pre-commit = "^2.20.0"
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"
